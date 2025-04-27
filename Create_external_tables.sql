@@ -1,5 +1,5 @@
 -- set password & create master key
-create master key encryption by password = 'amzn_primework2'
+create master key encryption by password = ''
 -- to access the external location, this is not the database password
 
 
