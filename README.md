@@ -24,7 +24,16 @@ The data was first fetched from the github with the copy
 
 ![Screenshot 2025-04-25 204444](https://github.com/user-attachments/assets/ccda5c1e-f56c-486c-9d6e-9d14917b7106)
 
-The results can be queried in synapse by using the lake 
+The pipeline follows a medallion architecture (bronze, silver, gold layers):
+Bronze Layer: Raw CSV files stored in Azure Data Lake.
+Silver Layer: Cleaned and enriched data with schema validation in the parquet format.
+Gold Layer: Aggregated, business-ready tables for analytics in the delta format.
+
+ADLS Storage containers
+
+![image](https://github.com/user-attachments/assets/95ff6741-d221-46df-9333-1fedb4842955)
+
+The results can be queried in synapse by using the lake from the gold layer data.
 ![image](https://github.com/user-attachments/assets/0ca05fe9-1b69-4227-83e5-be029c70f44e)
 
 
