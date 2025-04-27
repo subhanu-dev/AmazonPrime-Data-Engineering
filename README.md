@@ -36,7 +36,7 @@ ADLS Storage containers
 The results can be queried in synapse by using the lake from the gold layer data.
 ![image](https://github.com/user-attachments/assets/0ca05fe9-1b69-4227-83e5-be029c70f44e)
 
-
+<img src="Screenshot 2025-04-27 100918.png" width="700px">
 
 ---
 Made with ❤️ by [Subhanu](https://github.com/subhanu-dev)
